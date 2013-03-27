@@ -1,0 +1,56 @@
+<!-- @BEGIN Login Interface Template -->
+<script id="login_interface" type="text/html">
+<div id="login">
+  <div id="bg"></div>
+  <div id="ieno" data-bind="visible: function() { return !$root.system.browserSupported; }()">
+    This application is not compatible with this browser or version. Please use the latest version of Chrome, Safari, or Firefox.
+    </div>
+	<div id="help">
+    <span class="no" data-bind="visible: message_state() === 'login_incorrect'">
+      Incorrect. Try again or <a data-bind="click: retrieve_password" href="#">reset your password</a>.
+    </span>
+    <span class="yes" data-bind="visible: message_state() === 'after_reset'">
+      Your password has been reset. Your new password has been emailed to you.
+    </span>
+    <span class="no" data-bind="visible: message_state() === 'reset_fail'">
+      That username or email was not found. Please try again.
+    </span>
+    <span class="yes" data-bind="visible: message_state() === 'reset_init'">
+      Email sent with password reset instructions.
+    </span>
+	</div>
+	<div id="signin" data-bind="attr: { class: state }">
+        <div id="app-logo">
+        	<img src="images/app-logo-square.png" width="72" height="72" />
+        </div>
+        <div id="app-signin">
+        <form id="reset_form" data-bind="submit: reset">
+            <div class="field-container">
+                Instructions will be emailed to you.
+            </div>
+      			<div class="field-container">
+        			<input type="email" class="field signin" placeholder="Email address" name="email" />
+      			</div>
+      			<div class="field-container">
+        			<button type="submit" class="button c0">Reset password</button>
+      			</div>
+      			<div class="field-container">
+      				<button class="button c3" data-bind="click: back_to_login">Return to sign in</button>
+      			</div>
+    		</form>
+    		<form id="login_form" data-bind="submit: login">
+            <div class="field-container">
+            	<input id="email" type="email" class="field signin email" placeholder="Email address" name="email" autofocus />
+              <input type="password" class="field signin pass" placeholder="Password" name="password" />
+            </div>
+            <div class="field-container">
+          			<input name="remember" id="remember" type="checkbox" /> <label for="remember">Keep me signed in</label>
+        		</div>
+            <div class="field-container submit">
+            	<button type="submit" id="login_submit" class="button c0">Sign in</button>
+            </div>
+    		</form>
+    	</div>
+	</div><!-- close #signin -->
+</div> <!-- close #login -->
+<!-- @END Login Interface Template -->

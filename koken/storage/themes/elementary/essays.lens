@@ -1,0 +1,33 @@
+<koken:include file="layouts/header.html" />
+
+<koken:load limit="10">
+
+<koken:if exists="category">
+<div class="head">
+	<h2>
+		Showing all essays in the {{ category.title }} category
+	</h2>
+</div>
+</koken:if>
+
+<div id="twocol" class="flip">
+
+	<koken:loop>
+
+		<koken:include file="layouts/article.html" />
+
+		<hr>
+
+	</koken:loop>
+
+</div>
+
+<koken:include file="layouts/pagination.html" />
+
+<koken:else>
+
+	No essays found. Create some in Text.
+
+</koken:load>
+
+<koken:include file="layouts/footer.html" />

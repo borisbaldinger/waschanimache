@@ -1,0 +1,9 @@
+<koken:include file="layouts/header.html" />
+		
+<div id="slideshow-main">
+
+	<koken:pulse fallbacktext="No featured photos found. Please assign them in the Library." />
+
+</div>
+
+<koken:include file="layouts/footer.html" />

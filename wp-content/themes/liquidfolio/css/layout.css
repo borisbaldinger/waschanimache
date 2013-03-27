@@ -1,0 +1,74 @@
+/*	Basic Alignments
+-------------------------------------------------- */
+	.fleft	{ float: left;}
+	.fright { float: right;}
+	
+/*	Common Classes
+-------------------------------------------------- */
+	.wrapper 	{ width: 100%; overflow: hidden;}
+	.extra_wrap { overflow: hidden;}
+	.extra 		{ width: 100%;}
+
+/*	Fluid Columns
+-------------------------------------------------------------- */
+	.one_half, .one_third, .two_third, .one_fourth, .three_fourth { float: left; margin-right: 3.8%; margin-bottom: 18px;}
+	.one_half { width: 48%; *width: 47.99%;}
+	.one_third { width: 30.66%; }
+	.two_third { width: 65.32%; }
+	.one_fourth { width: 22%; *width: 21.9%; }
+	.three_fourth { width: 74%; }
+	.one_half.last, .one_third.last, .two_third.last, .one_fourth.last, .three_fourth.last { margin-right: 0px;}
+
+	figure.gallery-item.last:before {
+		clear: both; display: block;
+		overflow: hidden; visibility: hidden;
+		width: 0; height: 0;
+	}
+	figure.gallery-item.last { zoom: 1; }
+
+/*	Custom Columns
+-------------------------------------------------- */
+	.ie8 body { width: auto!important; width:1280px; min-width:1280px;}
+	
+	header, footer {
+		float: left;
+		width: 353px;
+	}
+	header { position:relative;}
+	#main {
+		float: right;
+		width: 100%;
+		margin-left: -353px;
+	}
+	.content_area { margin-left: 353px; }
+	.row { width:100%; }
+	footer { clear: left; padding-top:6px;}
+	.sidebar_bg { width: 353px; height: 6px; position: absolute; z-index: 1; left: 0; bottom: -6px; -moz-transition: all .2s ease-in; -webkit-transition: all .2s ease-in; -o-transition: all .2s ease-in;}
+
+	.column-left { float:left;}
+	.column-main { overflow:hidden; height:100%;}
+	
+/*	Hidden Elements
+-------------------------------------------------- */
+	.hidden { visibility: hidden; display: none;}
+
+/*	Clear Floated Elements
+-------------------------------------------------- */
+	.clearfix:before, .clearfix:after {content: ""; display: table} 
+	.clearfix:after { clear: both}
+	.lt-ie9 .clearfix {	zoom: 1;}
+	
+	.clearboth {clear: both}
+	.clear { clear: both; overflow: hidden; display: block; visibility: hidden; width: 0; height: 0}
+	
+	.widget_recent_posts li:before, .widget_recent_posts li:after { content: ""; display: table} 
+	.widget_recent_posts li:after { clear: both}
+	.lt-ie9 .widget_recent_posts li { zoom: 1}
+	
+	.widget_popular_posts li:before, .widget_popular_posts li:after { content: ""; display: table} 
+	.widget_popular_posts li:after { clear: both}
+	.lt-ie9 .widget_popular_posts li { zoom: 1}
+	
+	.widget_gallery ul:before, .widget_gallery ul:after { content: ""; display: table} 
+	.widget_gallery ul:after { clear: both}
+	.lt-ie9 .widget_gallery ul { zoom: 1}

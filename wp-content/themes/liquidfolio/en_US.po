@@ -1,0 +1,1644 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LiquidFolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-25 22:51+0200\n"
+"PO-Revision-Date: 2013-02-25 22:51+0200\n"
+"Last-Translator: Kostiantyn Iatseniuk <kot@cult-f.net>\n"
+"Language-Team: Queldorei <mail@queldorei.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:7
+msgid "404 - Oops!"
+msgstr ""
+
+#: 404.php:10
+msgid "The page you are trying to reach can&apos;t be found"
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+#: 404.php:13
+msgid "back to home"
+msgstr ""
+
+#: comments.php:37 classes/Widget/ContactForm.php:48
+#: lib/shortcode/shortcodes/contactForm.php:125
+msgid "Name"
+msgstr ""
+
+#: comments.php:40
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:43
+msgid "Comment"
+msgstr ""
+
+#: comments.php:47
+msgid "Add comment"
+msgstr ""
+
+#: comments.php:58
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: functions.php:208
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:639
+msgid "The default sidebar!"
+msgstr ""
+
+#: functions.php:710
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:135
+msgid "VIEW:"
+msgstr ""
+
+#: header.php:136
+msgid "All"
+msgstr ""
+
+#: loop-galleries.php:178 loop-gallery.php:281 loop.php:812 search.php:318
+#: taxonomy-qd_galleries_cat.php:190
+msgid "Not Found"
+msgstr ""
+
+#: loop-galleries.php:181 loop-gallery.php:284 loop.php:815 search.php:321
+#: taxonomy-qd_galleries_cat.php:193
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: loop-gallery.php:57 loop-gallery.php:108 loop-gallery.php:154
+#: loop-gallery.php:205 loop-gallery.php:250 loop.php:44 loop.php:141
+#: loop.php:192 loop.php:234 loop.php:278 loop.php:323 loop.php:372
+#: loop.php:423 loop.php:468
+msgid "next page"
+msgstr ""
+
+#: loop-gallery.php:58 loop-gallery.php:109 loop-gallery.php:155
+#: loop-gallery.php:206 loop-gallery.php:251 loop.php:45 loop.php:142
+#: loop.php:193 loop.php:235 loop.php:279 loop.php:324 loop.php:373
+#: loop.php:424 loop.php:469
+msgid "previous page"
+msgstr ""
+
+#: loop-gallery.php:65 loop-gallery.php:116 loop-gallery.php:162
+#: loop-gallery.php:214 loop-gallery.php:258 loop.php:52 loop.php:88
+#: loop.php:149 loop.php:200 loop.php:242 loop.php:287 loop.php:331
+#: loop.php:381 loop.php:432 loop.php:476 loop.php:516 loop.php:556
+#: loop.php:587 loop.php:612 loop.php:636 loop.php:659 loop.php:689
+#: loop.php:734 search.php:49 search.php:88 search.php:118 search.php:142
+#: search.php:165 search.php:188 search.php:217 search.php:262
+msgid "0"
+msgstr ""
+
+#: loop-gallery.php:65 loop-gallery.php:116 loop-gallery.php:162
+#: loop-gallery.php:214 loop-gallery.php:258 loop.php:52 loop.php:88
+#: loop.php:149 loop.php:200 loop.php:242 loop.php:287 loop.php:331
+#: loop.php:381 loop.php:432 loop.php:476 loop.php:516 loop.php:556
+#: loop.php:587 loop.php:612 loop.php:636 loop.php:659 loop.php:689
+#: loop.php:734 search.php:49 search.php:88 search.php:118 search.php:142
+#: search.php:165 search.php:188 search.php:217 search.php:262
+msgid "1"
+msgstr ""
+
+#: loop-gallery.php:65 loop-gallery.php:116 loop-gallery.php:162
+#: loop-gallery.php:214 loop-gallery.php:258 loop.php:52 loop.php:88
+#: loop.php:149 loop.php:200 loop.php:242 loop.php:287 loop.php:331
+#: loop.php:381 loop.php:432 loop.php:476 loop.php:516 loop.php:556
+#: loop.php:587 loop.php:612 loop.php:636 loop.php:659 loop.php:689
+#: loop.php:734 search.php:49 search.php:88 search.php:118 search.php:142
+#: search.php:165 search.php:188 search.php:217 search.php:262
+msgid "%"
+msgstr ""
+
+#: loop-gallery.php:67 loop-gallery.php:118 loop-gallery.php:164
+#: loop-gallery.php:216 loop-gallery.php:260 loop.php:54 loop.php:90
+#: loop.php:151 loop.php:202 loop.php:244 loop.php:289 loop.php:333
+#: loop.php:383 loop.php:434 loop.php:478 loop.php:518 loop.php:558
+#: loop.php:589 loop.php:614 loop.php:638 loop.php:661 loop.php:691
+#: loop.php:736 search.php:51 search.php:90 search.php:120 search.php:144
+#: search.php:167 search.php:190 search.php:219 search.php:264
+#: classes/Locate/Api/Map.php:302
+msgid "Edit"
+msgstr ""
+
+#: loop.php:506 loop.php:511 loop.php:515 loop.php:545 loop.php:551
+#: loop.php:555 loop.php:577 loop.php:582 loop.php:586 loop.php:607
+#: loop.php:611 loop.php:626 loop.php:631 loop.php:635 loop.php:658
+#: loop.php:674 loop.php:684 loop.php:688 loop.php:723 loop.php:728
+#: loop.php:733 search.php:40 search.php:45 search.php:48 search.php:78
+#: search.php:84 search.php:87 search.php:109 search.php:114 search.php:117
+#: search.php:138 search.php:141 search.php:156 search.php:161 search.php:164
+#: search.php:187 search.php:203 search.php:213 search.php:216 search.php:251
+#: search.php:256 search.php:261
+msgid "Permanent Link to"
+msgstr ""
+
+#: loop.php:510 loop.php:511 loop.php:550 loop.php:551 loop.php:581
+#: loop.php:582 loop.php:606 loop.php:607 loop.php:630 loop.php:631
+#: loop.php:683 loop.php:684 loop.php:710 loop.php:727 loop.php:728
+#: search.php:45 search.php:84 search.php:114 search.php:138 search.php:161
+#: search.php:213 search.php:256
+msgid "Read more"
+msgstr ""
+
+#: search.php:4
+msgid "Search results for: "
+msgstr ""
+
+#: wpml-integration.php:32
+msgid "This post is also available in: "
+msgstr ""
+
+#: classes/Admin/Theme/Element/File.php:42
+#: classes/Admin/Theme/Element/File/Favicon.php:35
+msgid "Upload"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Blog.php:46
+msgid "Post format colors"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Galleries.php:30
+msgid "<p>Global sizes for thumbnails. They can be overridden in post/page</p>"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:107
+msgid "Map types"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:108
+msgid ""
+"Allow your readers to change the map type (street, satellite, or hybrid)"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:115
+msgid "Scroll wheel zoom"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:116
+msgid "Enable zoom with the mouse scroll wheel"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:123
+msgid "Tooltips"
+msgstr ""
+
+#: classes/Admin/Theme/Item/General.php:124
+msgid "Show marker titles as a \"tooltip\" on mouse-over"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Header.php:31
+msgid "Logo"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:10
+msgid "Theme updater"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:11
+msgid "Theme Updater"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:23
+msgid "User Account Information"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:29
+msgid "Marketplace Username"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:30
+msgid "Provide Username for theme update"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:38
+msgid "Secret API Key"
+msgstr ""
+
+#: classes/Admin/Theme/Item/Update.php:39
+msgid "Provide API Key for theme update"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:251
+msgid "Delete this image"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:251
+#: classes/Custom/MetaBox/Taxonomy.php:860 classes/Locate/Api/Map.php:305
+#: classes/Locate/Api/Map.php:313
+msgid "Delete"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:345
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:564
+#: classes/Custom/MetaBox/Taxonomy.php:607
+msgid "Remove"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:577 classes/Locate/Api/Map.php:215
+msgid "Add"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:856
+msgid "Uploaded files"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:867
+msgid "Upload new files"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:873
+msgid "Add more files"
+msgstr ""
+
+#: classes/Custom/MetaBox/Taxonomy.php:925
+msgid "Select a color"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:131
+msgid "Gallery Item Title"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:132
+msgid "Image preview"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:133
+msgid "Assign to Galleries Category(s)"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:170
+msgid "Galleries"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:171
+msgid "Gallery Posts"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:172
+msgid "Gallery"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:173
+msgid "Add New"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:174
+msgid "Add New Item"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:175
+msgid "Edit Item"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:176
+msgid "New Item"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:177
+msgid "View Item"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:178
+msgid "Search Items"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:179
+msgid "No items found"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:180
+msgid "No items found in Trash"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:190
+msgid "Gallery Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:191
+msgid "Gallery Category"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:192
+msgid "Search Galleries Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:193
+msgid "Popular Galleries Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:194
+msgid "All Galleries Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:197
+msgid "Edit Galleries Category"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:198
+msgid "Update Galleries Category"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:199
+msgid "Add New Galleries Category"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:200
+msgid "New Galleries Category Name"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:201
+msgid "Add or remove Galleries Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:202
+msgid "Choose from the most used Galleries Categories"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:203
+msgid "Separate Galleries Categories with commas"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:218
+msgid "Format"
+msgstr ""
+
+#: classes/Custom/Posts/Type/Gallery.php:242
+msgid "Image"
+msgstr ""
+
+#: classes/Envato/Theme/Backup.php:399
+msgid "The backup file was not created"
+msgstr ""
+
+#: classes/Envato/Theme/Backup.php:473
+msgid "The following files are unreadable and could not be backed up: "
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: classes/Envato/Theme/Protected/API.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: classes/Import/Dummy.php:128
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: classes/Import/Importer.php:147 classes/Import/Importer.php:156
+#: classes/Import/Importer.php:207 classes/Import/Importer.php:215
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: classes/Import/Importer.php:148
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: classes/Import/Importer.php:191
+msgid "All done."
+msgstr ""
+
+#: classes/Import/Importer.php:191
+msgid "Have fun!"
+msgstr ""
+
+#: classes/Import/Importer.php:223
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: classes/Import/Importer.php:248
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: classes/Import/Importer.php:274
+msgid "Assign Authors"
+msgstr ""
+
+#: classes/Import/Importer.php:275
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: classes/Import/Importer.php:277
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: classes/Import/Importer.php:287
+msgid "Import Attachments"
+msgstr ""
+
+#: classes/Import/Importer.php:290
+msgid "Download and import file attachments"
+msgstr ""
+
+#: classes/Import/Importer.php:307
+msgid "Import author:"
+msgstr ""
+
+#: classes/Import/Importer.php:318
+msgid "or create new user with login name:"
+msgstr ""
+
+#: classes/Import/Importer.php:321
+msgid "as a new user:"
+msgstr ""
+
+#: classes/Import/Importer.php:329
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: classes/Import/Importer.php:331
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: classes/Import/Importer.php:332
+msgid "- Select -"
+msgstr ""
+
+#: classes/Import/Importer.php:380
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: classes/Import/Importer.php:435
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: classes/Import/Importer.php:475
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: classes/Import/Importer.php:537 classes/Import/Importer.php:649
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: classes/Import/Importer.php:559
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: classes/Import/Importer.php:580
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: classes/Import/Importer.php:621
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/Import/Importer.php:758
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: classes/Import/Importer.php:765
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: classes/Import/Importer.php:828
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: classes/Import/Importer.php:865
+msgid "Remote server did not respond"
+msgstr ""
+
+#: classes/Import/Importer.php:871
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: classes/Import/Importer.php:878
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: classes/Import/Importer.php:883
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: classes/Import/Importer.php:889
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: classes/Import/Importer.php:988
+msgid "Import WordPress"
+msgstr ""
+
+#: classes/Import/Importer.php:995
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: classes/Import/Importer.php:1010
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: classes/Import/Importer.php:1011
+msgid "Choose a WXR file to upload, then click Upload file and import."
+msgstr ""
+
+#: classes/Import/Parser.php:34 classes/Import/Parser/SimpleXML.php:12
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: classes/Import/Parser.php:35
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: classes/Import/Parser/Regex.php:76 classes/Import/Parser/SimpleXML.php:16
+#: classes/Import/Parser/SimpleXML.php:21 classes/Import/Parser/XML.php:39
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: classes/Locate/Map.php:40
+msgid "Version"
+msgstr ""
+
+#: classes/Locate/Map.php:49
+msgid "Internal error, map was missing.  Your data has not been saved!"
+msgstr ""
+
+#: classes/Locate/Map.php:55
+msgid "Internal error - unable to save map.  Your data has not been saved!"
+msgstr ""
+
+#: classes/Locate/Map.php:75 classes/Locate/Api/Map.php:294
+msgid "Untitled"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:219
+msgid "Location"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:234
+msgid "Current Maps"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:235
+msgid "New Map"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:244 classes/Locate/Api/Map.php:310
+#: classes/Widget/SocialLinks.php:127
+msgid "Title"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:247 classes/Locate/Api/Map.php:303
+msgid "Save"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:248
+msgid "Center"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:290
+msgid "Maps in this post"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:291
+msgid "There are no maps yet for this post"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:292
+msgid "Create a new map"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:293
+msgid "Map ID"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:295
+msgid "The starting or ending address could not be found."
+msgstr ""
+
+#: classes/Locate/Api/Map.php:296
+msgid ""
+"Google cannot return directions between those addresses.  There is no route "
+"between them or the routing information is not available."
+msgstr ""
+
+#: classes/Locate/Api/Map.php:297
+msgid "Unknown error, unable to return directions.  Status code = "
+msgstr ""
+
+#: classes/Locate/Api/Map.php:298
+msgid "Enter address"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:299
+msgid "No matching address"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:300
+msgid "Did you mean: "
+msgstr ""
+
+#: classes/Locate/Api/Map.php:301
+msgid "Directions"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:304
+msgid "Cancel"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:306
+msgid "View"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:307
+msgid "Back"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:308
+msgid "Insert into post"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:309
+msgid "Select a map"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:311
+msgid "Delete this map marker?"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:312
+msgid "Delete this map?"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:314
+msgid "Map saved"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:315
+msgid "Map deleted"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:316
+msgid "Error: AJAX failed!  "
+msgstr ""
+
+#: classes/Locate/Api/Map.php:317
+msgid "Click & drag to move this marker"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:318
+msgid "Zoom"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:319
+msgid "Traffic"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:320
+msgid "Standard icons"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:321
+msgid "My icons"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:344
+msgid "By car"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:344
+msgid "Walking"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:344
+msgid "Bicycling"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:345
+msgid "Start"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:346
+msgid "Swap start and end"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:347
+msgid "End"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:348
+msgid "Get Directions"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:348
+msgid "Print Directions"
+msgstr ""
+
+#: classes/Locate/Api/Map.php:348 lib/gallerylightbox.php:417
+msgid "Close"
+msgstr ""
+
+#: classes/Locate/Api/Poi.php:54
+#, php-format
+msgid "No geocoding response from Google: %s"
+msgstr ""
+
+#: classes/Locate/Api/Poi.php:67
+#, php-format
+msgid "Google cannot geocode address: %s, status: %s"
+msgstr ""
+
+#: classes/Locate/Api/Poi.php:70
+#, php-format
+msgid "No geocoding result for address: %s"
+msgstr ""
+
+#: classes/Walker/Category/Color.php:15
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: classes/Walker/Category/Color.php:30
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:10
+#: lib/shortcode/shortcodes/contactForm.php:9
+msgid "Contact form"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:11
+msgid "Contact form widget"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:51
+msgid "E-Mail"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:54
+msgid "Type your message here"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:57
+msgid "Send message"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:76
+msgid "Please specify your name."
+msgstr ""
+
+#: classes/Widget/ContactForm.php:77
+msgid "Please enter your message."
+msgstr ""
+
+#: classes/Widget/ContactForm.php:79
+msgid "We need your email address to contact you."
+msgstr ""
+
+#: classes/Widget/ContactForm.php:80
+msgid "Your email address must be in the format of name@domain.com"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:107
+msgid "Contact us"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:113 classes/Widget/FeedburnerEmail.php:71
+#: classes/Widget/Flickr.php:69 classes/Widget/Gallery.php:99
+#: classes/Widget/PopularPosts.php:112 classes/Widget/RecentPosts.php:106
+#: classes/Widget/Twitter.php:221 classes/Widget/Tag/Cloud.php:97
+msgid "Title:"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:117 classes/Widget/FeedburnerEmail.php:75
+msgid "Description:"
+msgstr ""
+
+#: classes/Widget/ContactForm.php:121
+msgid "Recipient email:"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:46
+msgid "Your E-Mail"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:46
+msgid "submit email address"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:66
+msgid "Sign up for our Newsletter"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:66
+msgid ""
+"Sign up for our mailing list to stay updated on the latest themes from the "
+"Queldorei!"
+msgstr ""
+
+#: classes/Widget/FeedburnerEmail.php:79
+msgid "Write only feedburner name:"
+msgstr ""
+
+#: classes/Widget/Flickr.php:64
+msgid "Flickr"
+msgstr ""
+
+#: classes/Widget/Flickr.php:77
+msgid "Number of photos:"
+msgstr ""
+
+#: classes/Widget/Flickr.php:83
+msgid "Flickr ID"
+msgstr ""
+
+#: classes/Widget/Gallery.php:89
+msgid "From gallery"
+msgstr ""
+
+#: classes/Widget/Gallery.php:105
+msgid "Category of gallery:"
+msgstr ""
+
+#: classes/Widget/Gallery.php:129
+msgid "Number of items to show:"
+msgstr ""
+
+#: classes/Widget/PopularPosts.php:82
+msgid "0 - Comments"
+msgstr ""
+
+#: classes/Widget/PopularPosts.php:82
+msgid "1 - Comment"
+msgstr ""
+
+#: classes/Widget/PopularPosts.php:82
+msgid "% - Comments"
+msgstr ""
+
+#: classes/Widget/PopularPosts.php:116 classes/Widget/RecentPosts.php:110
+msgid "Number of posts to show:"
+msgstr ""
+
+#: classes/Widget/PopularPosts.php:131
+msgid "Popular posts"
+msgstr ""
+
+#: classes/Widget/RecentPosts.php:101
+msgid "Recent posts"
+msgstr ""
+
+#: classes/Widget/SocialLinks.php:116
+msgid "Hide icon:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:40
+msgid "Can't connect to twitter."
+msgstr ""
+
+#: classes/Widget/Twitter.php:46
+msgid "There are no public messages."
+msgstr ""
+
+#: classes/Widget/Twitter.php:208 lib/metabox/functions.php:746
+msgid "Twitter"
+msgstr ""
+
+#: classes/Widget/Twitter.php:226
+msgid "Twitter username:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:231
+msgid "Number of tweets:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:236
+msgid "Show date posted:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:241
+msgid "Discover hyperlinks:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:246
+msgid "Discover @replies:"
+msgstr ""
+
+#: classes/Widget/Twitter.php:251
+msgid "UTF8 Encode:"
+msgstr ""
+
+#: classes/Widget/Tag/Cloud.php:22
+msgid "Tags"
+msgstr ""
+
+#: classes/Widget/Tag/Cloud.php:99
+msgid "Taxonomy:"
+msgstr ""
+
+#: classes/Widget/Twitter/Feed.php:87
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: classes/Widget/Twitter/Feed.php:91
+msgid "Y/m/d"
+msgstr ""
+
+#: classes/Widget/Twitter/Feed.php:93
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: lib/gallerylightbox.php:379
+msgid "Previous"
+msgstr ""
+
+#: lib/gallerylightbox.php:380
+msgid "Next"
+msgstr ""
+
+#: lib/tweaks.php:352
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: lib/tweaks.php:352
+msgid "Enter password"
+msgstr ""
+
+#: lib/tweaks.php:384
+msgid "Search for:"
+msgstr ""
+
+#: lib/tweaks.php:385
+msgid "To search type and hit enter"
+msgstr ""
+
+#: lib/tweaks.php:386
+msgid "Search"
+msgstr ""
+
+#: lib/metabox/functions.php:61
+msgid "Custom sidebar"
+msgstr ""
+
+#: lib/metabox/functions.php:68
+msgid "Sidebar"
+msgstr ""
+
+#: lib/metabox/functions.php:69
+msgid "Sidebar to display"
+msgstr ""
+
+#: lib/metabox/functions.php:78
+msgid "Slideshow Settings"
+msgstr ""
+
+#: lib/metabox/functions.php:84
+msgid "The Slides"
+msgstr ""
+
+#: lib/metabox/functions.php:88
+msgid "Add slides to gallery slider"
+msgstr ""
+
+#: lib/metabox/functions.php:95
+msgid "Video Settings"
+msgstr ""
+
+#: lib/metabox/functions.php:101
+msgid "Video URL"
+msgstr ""
+
+#: lib/metabox/functions.php:105
+msgid "Youtube or Vimeo video URL"
+msgstr ""
+
+#: lib/metabox/functions.php:112
+msgid "Audio Settings"
+msgstr ""
+
+#: lib/metabox/functions.php:118
+msgid "Audio URL"
+msgstr ""
+
+#: lib/metabox/functions.php:122
+msgid "Supported formats: MP3, M4A and OGA"
+msgstr ""
+
+#: lib/metabox/functions.php:128
+msgid "Link Settings"
+msgstr ""
+
+#: lib/metabox/functions.php:134
+msgid "Link URL"
+msgstr ""
+
+#: lib/metabox/functions.php:138
+msgid "Write your custom URL"
+msgstr ""
+
+#: lib/metabox/functions.php:144
+msgid "Twitter Settings"
+msgstr ""
+
+#: lib/metabox/functions.php:150
+msgid "Tweet URL"
+msgstr ""
+
+#: lib/metabox/functions.php:154
+msgid "Insert direct URL to your tweet"
+msgstr ""
+
+#: lib/metabox/functions.php:160
+msgid "Quote Settings"
+msgstr ""
+
+#: lib/metabox/functions.php:166
+msgid "The Quote"
+msgstr ""
+
+#: lib/metabox/functions.php:170
+msgid "Write  quote"
+msgstr ""
+
+#: lib/metabox/functions.php:173
+msgid "The Quote Author"
+msgstr ""
+
+#: lib/metabox/functions.php:177
+msgid "Write  quote author"
+msgstr ""
+
+#: lib/metabox/functions.php:457
+msgid "Custom Google map location image"
+msgstr ""
+
+#: lib/metabox/functions.php:481
+msgid "Select a gallery category"
+msgstr ""
+
+#: lib/metabox/functions.php:489
+msgid "Disable filters"
+msgstr ""
+
+#: lib/metabox/functions.php:508 lib/metabox/functions.php:618
+msgid "Show Gallery Title"
+msgstr ""
+
+#: lib/metabox/functions.php:725
+msgid "Visit Website URL"
+msgstr ""
+
+#: lib/metabox/functions.php:732
+msgid "Visit Website text"
+msgstr ""
+
+#: lib/metabox/functions.php:736
+msgid "Visit Website"
+msgstr ""
+
+#: lib/metabox/functions.php:739
+msgid "Visit Website target"
+msgstr ""
+
+#: lib/metabox/functions.php:753
+msgid "Google Plus"
+msgstr ""
+
+#: lib/metabox/functions.php:760
+msgid "Pinterest"
+msgstr ""
+
+#: lib/metabox/functions.php:767
+msgid "Facebook"
+msgstr ""
+
+#: lib/metabox/init.php:411 lib/metabox/init.php:439
+msgid "Click to toggle"
+msgstr ""
+
+#: lib/metabox/init.php:412 lib/metabox/init.php:440
+msgid "Slide"
+msgstr ""
+
+#: lib/metabox/init.php:419 lib/metabox/init.php:447
+msgid "Image URL"
+msgstr ""
+
+#: lib/metabox/init.php:423 lib/metabox/init.php:452
+msgid "Upload Image"
+msgstr ""
+
+#: lib/metabox/init.php:430 lib/metabox/init.php:459
+msgid "Remove Slide"
+msgstr ""
+
+#: lib/metabox/init.php:467
+msgid "Add New Slide"
+msgstr ""
+
+#: lib/metabox/init.php:477
+msgid "Upload Video"
+msgstr ""
+
+#: lib/metabox/init.php:481
+msgid "Upload Audio"
+msgstr ""
+
+#: lib/shortcode/contact-form.php:68 lib/shortcode/contact-form.php:78
+#: lib/shortcode/contact-form.php:83 lib/shortcode/contact-form.php:92
+#: lib/shortcode/contact-form.php:97 lib/shortcode/contact-form.php:114
+msgid "(required)"
+msgstr ""
+
+#: lib/shortcode/contact-form.php:92
+msgid "Yes"
+msgstr ""
+
+#: lib/shortcode/contact-form.php:136
+#, php-format
+msgid "%s requires a valid email address"
+msgstr ""
+
+#: lib/shortcode/contact-form.php:140
+#, php-format
+msgid "%s requires a valid url"
+msgstr ""
+
+#: lib/shortcode/contact-form.php:149
+#, php-format
+msgid "%s is required"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:8
+msgid "Insert Button"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:240
+#: lib/shortcode/shortcodes/social_link.php:147
+msgid "Buttons"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:246
+#: lib/shortcode/shortcodes/social_link.php:152
+msgid "Type of button:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:247
+#: lib/shortcode/shortcodes/notifications.php:76
+#: lib/shortcode/shortcodes/social_link.php:153
+msgid "Choose a type:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:249
+#: lib/shortcode/shortcodes/notifications.php:78
+#: lib/shortcode/shortcodes/social_link.php:155
+msgid "Select type"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:250
+msgid "small button"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:251
+msgid "middle button black"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:252
+msgid "large color button"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:253
+msgid "xlarge color button"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:258
+#: lib/shortcode/shortcodes/social_link.php:171
+msgid "URL for button:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:259
+#: lib/shortcode/shortcodes/social_link.php:172
+msgid "Type your URL here:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:263
+#: lib/shortcode/shortcodes/social_link.php:176
+msgid "Link target:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:264
+#: lib/shortcode/shortcodes/social_link.php:177
+msgid "Check if you want open in new window:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:273
+#: lib/shortcode/shortcodes/notifications.php:87
+#: lib/shortcode/shortcodes/social_link.php:181
+msgid "Preview:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/buttons.php:280
+#: lib/shortcode/shortcodes/notifications.php:94
+#: lib/shortcode/shortcodes/social_button.php:390
+#: lib/shortcode/shortcodes/social_link.php:188
+msgid "Insert"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:109
+msgid "Your new field was saved successfully"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:115
+msgid "Edit this new field"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:117
+msgid "Label"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:118
+msgid "New field"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:120
+msgid "Field type"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:122
+msgid "Checkbox"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:123
+msgid "Drop down"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:124
+msgid "Email"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:126
+msgid "Radio"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:127
+msgid "Text"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:128
+msgid "Textarea"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:129
+msgid "Website"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:135
+msgid "Options"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:136
+msgid "First option"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:139
+msgid "Add another option"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:146
+msgid "Required?"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:152
+msgid "Use for reply?"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:157
+msgid "Save this field"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:162
+msgid "Here's what your form will look like"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:167
+msgid "Add a new field"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:175
+msgid "Add this form to my post"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:178
+msgid "Email settings"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:180
+msgid "Enter your email address"
+msgstr ""
+
+#: lib/shortcode/shortcodes/contactForm.php:183
+msgid "What should the subject line be?"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:8
+msgid "Insert Notification"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:69
+msgid "Notification"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:75
+msgid "Type of notification:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:79
+msgid "Successful"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:80
+msgid "Error"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:81
+msgid "Warning"
+msgstr ""
+
+#: lib/shortcode/shortcodes/notifications.php:82
+msgid "Info"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:8
+msgid "Insert Share Buttons"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:243
+msgid "Size:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:244
+msgid "Choose a size:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:246
+msgid "Small (15px)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:247
+msgid "Standard(24px)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:248
+msgid "Medium(20px)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:249
+msgid "Tall(60px)"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:254
+msgid "Type of Annotation:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:255
+msgid "Choose a Annotation:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:257
+msgid "Inline"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:258
+msgid "Bubble"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:259
+#: lib/shortcode/shortcodes/social_button.php:277
+msgid "None"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:263
+msgid "Advanced options:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:264
+msgid "HTML5 valid syntax:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:267
+msgid "URL to +1:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:274
+msgid "Count box position:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:275
+msgid "Choose a Position:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:278
+#: lib/shortcode/shortcodes/social_button.php:376
+msgid "Horizontal"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:279
+#: lib/shortcode/shortcodes/social_button.php:377
+msgid "Vertical"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:283
+msgid "Button size:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:284
+msgid "Large:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:288
+msgid "URL of the page to share:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:289
+msgid "URL(default: URL of the webpage):"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:294
+msgid "Recommended accounts:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:300
+msgid "Via user:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:306
+msgid "Default Tweet text:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:307
+#: lib/shortcode/shortcodes/social_button.php:383
+msgid "Text:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:316
+msgid "URL to Like:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:317
+#: lib/shortcode/shortcodes/social_button.php:364
+#: lib/shortcode/shortcodes/social_button.php:369
+msgid "URL:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:321
+#: lib/shortcode/shortcodes/social_button.php:322
+msgid "Send Button:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:326
+msgid "Layout Style:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:327
+#: lib/shortcode/shortcodes/social_button.php:374
+msgid "Choose a Layout:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:329
+msgid "Standard"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:330
+msgid "Button Count"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:331
+msgid "Box Count"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:335
+#: lib/shortcode/shortcodes/social_button.php:336
+msgid "Width:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:340
+msgid "Show profile picture:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:341
+msgid "Show Faces:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:345
+msgid "Verb to display"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:346
+msgid "Choose a Verb:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:348
+msgid "Like"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:349
+msgid "Recommend"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:353
+msgid "Color Scheme "
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:354
+msgid "Choose a Scheme:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:356
+msgid "Light"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:357
+msgid "Dark"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:363
+msgid "Page the pin is on:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:368
+msgid "Image to be pinned:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:373
+msgid "Pin Count:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:378
+msgid "No Count"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_button.php:382
+msgid "What they're pinning:"
+msgstr ""
+
+#: lib/shortcode/shortcodes/social_link.php:9
+msgid "Insert Social Link"
+msgstr ""

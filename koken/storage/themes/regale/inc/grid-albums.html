@@ -1,0 +1,72 @@
+<script>
+$( function() {
+
+	var colContainer = '';
+
+	for ( var i = 0, len = parseInt( $('#grid').attr('class').replace('col-',''), 10 ); i < len; i++ ) {
+		colContainer += $('#grid').html();
+	}
+
+	$('#grid').html(colContainer);
+
+	var cols	= $('.column'),
+		output	= [];
+
+	$('.item').each( function(v,k) {
+
+		var col		= v % cols.length,
+			html	= output[col] || [];
+
+		html[html.length]	= k;
+		output[col]			= html;
+
+		$(k).remove();
+
+	});
+
+	cols.each( function(v,k) {
+
+		var str = '';
+
+		$.each(output[v], function(j,w) {
+			str += w.outerHTML;
+		});
+
+		k.innerHTML = str;
+
+	});
+
+});
+</script>
+
+<div id="grid" class="col-{{ settings.grid_albums_col_num }} albums">
+	<div class="column"></div>
+</div>
+
+<koken:loop>
+
+	<div class="item">
+
+		<koken:link class="album-hover">
+
+			<koken:img lazy="true" fade="true" size="{{ settings.thumb_ratio }}" />
+
+			<koken:if true="settings.albums_show_title">
+
+				<span class="overlay">
+
+					<h2>{{ album.title }}</h2>
+
+					<koken:if true="settings.albums_show_summary">
+						<p>{{ album.summary }}</p>
+					</koken:if>
+
+				</span>
+
+			</koken:if>
+
+		</koken:link>
+
+	</div>
+
+</koken:loop>

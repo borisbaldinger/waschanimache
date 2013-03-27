@@ -1,0 +1,76 @@
+<koken:include file="layouts/header.html" />
+
+<koken:load>
+
+<koken:head>
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="og:title" content="{{ album.title }}" />
+	<meta property="og:description" content="{{ album.summary }}" />
+	<meta property="og:type" content="website" />
+	<koken:loop data="album.covers">
+		<meta property="og:image" content="{{ content.presets.medium.url }}" />
+	</koken:loop>
+</koken:head>
+
+<ul id="slideshow-nav">
+	<li>
+		<a href="#" id="sldshw-prev" title="Previous image">&larr; Prev</a>
+	</li>
+	<li>
+		<a href="#" id="sldshw-play" title="Auto playback slideshow">Play</a>
+	</li>
+	<li>
+		<a href="#" id="sldshw-next" title="Next image">Next &rarr;</a>
+	</li>
+</ul>
+
+<div id="slideshow-main">
+	<koken:pulse jsvar="pulse" next="#sldshw-next" previous="#sldshw-prev" toggle="#sldshw-play" />
+</div>
+
+<div id="slideshow-text">
+
+	<koken:if true="settings.show_title">
+
+	<h1>&nbsp;</h1>
+
+	</koken:if>
+
+	<koken:if true="settings.show_caption">
+
+	<p id="slideshow-caption">
+		&nbsp;
+	</p>
+
+	</koken:if>
+
+</div>
+
+<script>
+	pulse.on( 'playing', function(isPlaying) {
+		var el = $('#sldshw-play');
+		if (isPlaying) {
+			el.html('Pause');
+		} else {
+			el.html('Play');
+		}
+	});
+
+	pulse.on( 'transitionstart', function(e) {
+		var data = e.data,
+			title = $('#slideshow-text h1'),
+			caption = $('#slideshow-caption');
+
+		if (title) {
+			title.html( data.title || data.filename );
+		}
+
+		if (caption) {
+			caption.html( data.caption );
+		}
+	});
+</script>
+
+</koken:load>
+
+<koken:include file="layouts/footer.html" />

@@ -1,0 +1,271 @@
+{
+	"routes": {
+
+		"/home": {
+			"template": "index",
+			"navigation": {
+				"in_primary": true,
+				"label": "Home",
+				"front": true
+			}
+		},
+
+		"/albums": {
+			"template": "albums",
+			"navigation": {
+				"in_primary": true,
+ 				"label": "Albums"
+			}
+		},
+
+		"/content": {
+			"template": "contents",
+			"navigation": {
+				"in_primary": true,
+				"label": "Content"
+			}
+		},
+
+		"/favorites": {
+			"template": "favorites",
+			"navigation": {
+				"label": "Favorites"
+			}
+		},
+
+		"/feed/content/recent.rss": {
+			"template": "contents.rss",
+			"filters": [ "order_by=uploaded_on", "order_direction=desc" ]
+		},
+
+		"/albums/:id": {
+			"template": "album"
+		},
+
+		"/feed/albums/:id/recent.rss": {
+			"template": "album.rss",
+			"filters": [ "order_by=uploaded_on", "order_direction=desc" ]
+		},
+
+		"/sets/:id": {
+			"template": "set"
+		},
+
+		"/content/:id": {
+			"template": "content"
+		},
+
+		"/content/:id/in_album/:album_id": {
+			"template": "content"
+		},
+
+		"/essays": {
+			"template": "essays",
+			"navigation": {
+				"in_primary": true,
+				"label": "Essays"
+			}
+		},
+
+		"/feed/essays/recent.rss": {
+			"template": "essays.rss",
+			"filters": [ "order_by=published_on", "order_direction=desc" ]
+		},
+
+		"/essays/:id": {
+			"template": "essay"
+		},
+
+		"/pages/:id": {
+			"template": "page"
+		},
+
+
+		"/tags": {
+			"template": "archives",
+			"template_name": "Tags",
+			"template_description": "Displays tags and associated content.",
+			"source": "tags",
+			"navigation": {
+				"label": "Tags"
+			}
+		},
+
+		"/tags/:id/content": {
+			"template": "archive.contents",
+			"source": "tag",
+			"filters": [ "members=contents" ]
+		},
+
+		"/tags/:id/albums": {
+			"template": "archive.albums",
+			"source": "tag",
+			"filters": [ "members=albums" ]
+		},
+
+		"/tags/:id/essays": {
+			"template": "archive.essays",
+			"source": "tag",
+			"filters": [ "members=essays" ]
+		},
+
+		"/archives": {
+			"template": "archives",
+			"template_name": "Dates",
+			"template_description": "Displays months and associated content.",
+			"source": "archives",
+			"navigation": {
+				"label": "Archives"
+			}
+		},
+
+		"/archives/:year/:month/content": {
+			"template": "archive.contents",
+			"source": "archive",
+			"filters": [ "members=contents" ]
+		},
+
+		"/archives/:year/:month/albums": {
+			"template": "archive.albums",
+			"source": "archive",
+			"filters": [ "members=albums" ]
+		},
+
+		"/archives/:year/:month/essays": {
+			"template": "archive.essays",
+			"source": "archive",
+			"filters": [ "members=essays" ]
+		},
+
+		"/categories": {
+			"template": "archives",
+			"template_name": "Categories",
+			"template_description": "Displays categories and associated content.",
+			"source": "categories",
+			"navigation": {
+				"label": "Categories"
+			}
+		},
+
+		"/categories/:id/content": {
+			"template": "archive.contents",
+			"source": "category",
+			"filters": [ "members=contents" ]
+		},
+
+		"/categories/:id/albums": {
+			"template": "archive.albums",
+			"source": "category",
+			"filters": [ "members=albums" ]
+		},
+
+		"/categories/:id/essays": {
+			"template": "archive.essays",
+			"source": "category",
+			"filters": [ "members=essays" ]
+		}
+
+	},
+
+	"templates": {
+
+		"index": {
+			"name": "Home",
+			"description": "The front page of your site.",
+			"source": "featured_content"
+		},
+
+		"albums": {
+			"name": "Albums",
+			"description": "Displays all public albums and sets.",
+			"source": "albums"
+		},
+
+		"album": {
+			"name": "Album detail",
+			"description": "Displays a single album and its content.",
+			"source": "album"
+		},
+
+		"album.rss": {
+			"name": "Content",
+			"description": "Displays all public albums.",
+			"source": "album"
+		},
+
+		"archive.albums": {
+			"name": "Albums archive",
+			"description": "Displays all public albums sorted by tag, category or date."
+		},
+
+		"set": {
+			"name": "Set detail",
+			"description": "Displays a single set and its content.",
+			"source": "set"
+		},
+
+		"contents": {
+			"name": "Content",
+			"description": "Displays all public images and videos.",
+			"source": "contents"
+		},
+
+		"favorites": {
+			"name": "Favorites",
+			"description": "Displays your favorite images and videos.",
+			"source": "favorites"
+		},
+
+		"contents.rss": {
+			"name": "Content",
+			"description": "Displays all public images and videos.",
+			"source": "contents"
+		},
+
+		"archive.contents": {
+			"name": "Content archive",
+			"description": "Displays all public content sorted by tag, category or date."
+		},
+
+		"content": {
+			"name": "Content detail",
+			"description": "Displays a single piece of content.",
+			"source": "content"
+		},
+
+		"essays": {
+			"name": "Essays",
+			"description": "Displays all published essays.",
+			"source": "essays"
+		},
+
+		"essays.rss": {
+			"name": "Content",
+			"description": "Displays all published essays.",
+			"source": "essays"
+		},
+
+		"essay": {
+			"name": "Essay detail",
+			"description": "Displays a single published essay.",
+			"source": "essay"
+		},
+
+		"archive.essays": {
+			"name": "Essays archive",
+			"description": "Displays all published essays sorted by tag, category or date."
+		},
+
+		"page": {
+			"name": "Page",
+			"description": "Displays custom pages.",
+			"source": "page"
+		},
+
+		"archives": {
+			"name": "Archives",
+			"description": "Displays all categories, tags or dates plus content previews."
+		}
+
+	}
+}

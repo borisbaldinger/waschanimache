@@ -1,0 +1,262 @@
+body {
+	width:100%;
+	height:100%;
+	line-height:1.5;
+	font-family: 'HelveticaNeue-Medium', Helvetica, Arial, sans-serif;
+	color:#707070;
+	text-rendering:optimizeLegibility;
+	overflow:hidden;
+	background:black;
+}
+
+body.loading div#spinner {
+	display:block;
+}
+
+div#spinner {
+	display:none;
+	background: transparent url(lightbox/ls-spin.png) no-repeat center center;
+	width:54px;
+	height:54px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-27px;
+	margin-top:-27px;
+	-webkit-animation-name: rotate;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: rotate;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-o-animation-name: rotate;
+	-o-animation-duration: 1.5s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+	animation-name: rotate;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+	from { -webkit-transform:rotate(0deg); }
+	to { -webkit-transform:rotate(360deg); }
+}
+
+@-moz-keyframes rotate {
+	from { -moz-transform:rotate(0deg); }
+	to { -moz-transform:rotate(360deg); }
+}
+
+@-o-keyframes rotate {
+	from { -o-transform:rotate(0deg); }
+	to { -o-transform:rotate(360deg); }
+}
+
+@keyframes rotate {
+	from { transform:rotate(0deg); }
+	to { transform:rotate(360deg); }
+}
+
+a {
+	color:#ccc;
+	font-weight:normal;
+	text-decoration:none;
+	-webkit-transition:color 200ms linear;
+	-moz-transition:color 200ms linear;
+	transition:color 200ms linear;
+}
+
+a:hover {
+	color:#eee;
+}
+
+strong { color:#eee; }
+
+h1, h2, h3, h4 {
+	font-weight:bold;
+	color:#ccc;
+}
+
+h1 a {
+	text-decoration:none;
+	color:#ccc;
+	font-weight:bold;
+}
+
+h1 a:hover {
+	text-decoration:underline;
+}
+
+/*
+	LAYOUT
+*/
+
+footer {
+	background:black;
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	z-index:100;
+	font-size:87%;
+	padding:15px;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div#lnav {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+div#rnav {
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:1;
+}
+
+div#main {
+	/* width of side nav */
+	margin:0 80px;
+	position:relative;
+}
+
+div#content {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	opacity:0;
+}
+
+#content.animate {
+	-webkit-transition: top 750ms;
+}
+
+#content img {
+	cursor: url(lightbox/magnify.cur), -moz-zoom-out;
+}
+
+#content.animate img {
+	-webkit-transition: all 750ms;
+}
+
+div#content p {
+	text-align:left;
+	margin:15px 0 0 0;
+}
+
+div#content div.caption {
+	text-align:center;
+	margin:25px 0 10px 0;
+}
+
+/*
+	Side col nav
+*/
+
+div.tnav {
+	width:80px;
+	height:100%;
+}
+
+div.tnav a {
+	display:block;
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align: center;
+	font-size:500%;
+	line-height:0;
+	/* based on approx px size of 82px high */
+	margin-top:-41px;
+}
+
+/*
+	Buttons
+*/
+
+.ibutton {
+	color:#333;
+	cursor:pointer;
+	position:absolute;
+	z-index:999;
+}
+
+.ibutton:hover {
+	color:#999;
+}
+
+a#lbox-bttn-play, a#lbox-bttn-pause {
+	right:15px;
+	bottom:15px;
+}
+
+a#lbox-bttn-close {
+	right:15px;
+	top:15px;
+}
+
+a#lbox-bttn-fs, a#lbox-bttn-ns {
+	right:45px;
+	top:15px;
+}
+
+a#lbox-bttn-ns {
+	display: none;
+}
+
+/* These have to be done separately, b/c of the vendor prefixes (I think) */
+:-webkit-full-screen a#lbox-bttn-ns	{ display: block; }
+:-moz-full-screen a#lbox-bttn-ns	{ display: block; }
+:-ms-full-screen a#lbox-bttn-ns		{ display: block; }
+:-o-full-screen a#lbox-bttn-ns		{ display: block; }
+:full-screen a#lbox-bttn-ns			{ display: block; }
+
+:-webkit-full-screen a#lbox-bttn-fs	{ display: none; }
+:-moz-full-screen a#lbox-bttn-fs	{ display: none; }
+:-ms-full-screen a#lbox-bttn-fs		{ display: none; }
+:-o-full-screen a#lbox-bttn-fs		{ display: none; }
+:full-screen a#lbox-bttn-fs			{ display: none; }
+
+/* MOBILE
+----------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	footer {
+		padding:8px;
+		font-size:35%;
+	}
+	.ibutton {
+		font-size:90%;
+	}
+	a#lbox-bttn-play, a#lbox-bttn-pause {
+		right:8px;
+		bottom:4px;
+	}
+	a#lbox-bttn-close {
+		right:8px;
+		top:8px;
+	}
+	a#lbox-bttn-fs, a#lbox-bttn-ns {
+		right:35px;
+		top:8px;
+	}
+	/* increase content area */
+	div#main {
+		margin:0 35px;
+	}
+	div.tnav {
+		width:35px;
+	}
+	div.tnav a {
+		font-size:280%;
+		margin-top:-26px;
+	}
+}

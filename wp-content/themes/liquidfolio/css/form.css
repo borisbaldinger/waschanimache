@@ -1,0 +1,152 @@
+/*	Form styles
+-------------------------------------------------------------- */
+	input[type="text"], input[type="password"] {
+		 width: 100%; padding: 6px 5px 6px 10px;
+		 border: 1px solid;
+		 border-radius: 2px;
+		 -webkit-appearance: none;
+	}
+	
+	.lt-ie9 input[type="text"], .lt-ie9 input[type="password"] { padding-bottom:7px;}
+	
+	.styled-select {
+		overflow: hidden;
+		width: 100%;
+		border: 1px solid;
+		border-radius: 2px;
+		background: url(../images/select_arrow.png) no-repeat 5px 13px #fff; background-size: 14px 13px;
+		-moz-transition: background 0.2s ease-in; -webkit-transition: background 0.2s ease-in; -o-transition: background 0.2s ease-in;
+	}
+	.styled-select:hover {
+		background-image: url(../images/select_arrow_hover.png); background-size: 14px 13px;
+	}
+	.styled-select select {
+		padding: 10px 5px 9px 24px;
+		width: 107%; cursor: pointer;
+		border: 0; background: transparent;
+	}
+	
+	input[type="checkbox"], input[type="radio"] {
+		background-color: transparent;
+		display:inline-block;
+		vertical-align:top;
+		margin:3px 6px 0px 0!important
+	}
+	label.radio { padding-right:10px;}
+	
+	
+	
+	
+	textarea {
+		padding: 6px 10px;
+		width: 100%; height: 99px;
+		border: 1px solid;
+		 border-radius: 2px;
+	}
+	
+	input::-webkit-input-placeholder { color: #675c55; } input:-moz-placeholder { color: #675c55; }
+	textarea::-webkit-input-placeholder { color: #675c55;} textarea:-moz-placeholder { color: #675c55;}
+	
+	input[type="text"]:hover, input[type="password"]:hover, textarea:hover { background-color: #fff;}
+	input:-webkit-autofill, input:focus, textarea:focus { background-color: #fff;}
+	
+/*	Buttons
+-------------------------------------------------------------- */
+	button, input[type="submit"], input[type="reset"], input[type="button"], input[type="file"] {
+		display: inline-block;
+		padding: 0 10px;
+		width: auto; height: 23px;
+		 border-radius: 2px;
+		line-height: 23px;
+	}
+
+/*	Newsletter
+-------------------------------------------------------------- */
+	.widget_feedburner .widget-title { margin-bottom: 11px;}
+	.widget_feedburner fieldset { text-align: left;}
+	.widget_feedburner label {
+		display: block;
+		padding: 0 34px 11px;
+		padding-left: 0;
+	}
+	
+	.email_fead_label {
+		display: block;
+		padding: 0 34px 11px;
+		text-align: center;
+	}
+	
+	.widget_feedburner input[type="text"] { margin-bottom: 11px;}
+	
+/*	Search Form
+-------------------------------------------------------------- */
+	label.screen-reader-text { display: none;}
+	#searchform  > div { position: relative;}
+	
+	#searchform  > div:before {
+		position: absolute; left: 28px; top: 5px;
+		display: block; content: '|';z-index: 1;
+	}
+	#s { padding-left:36px;}
+	#searchsubmit {
+		position: absolute; left: 9px; top: 8px;
+		width: 13px; height: 13px; padding:0;
+		text-indent: -1000em;
+		z-index: 1;
+	}
+	
+	.header_bar #searchform { padding:5px 0px 0px;}
+	.header_bar #searchform  > div:before { top:7px;}
+	.header_bar #s {
+		-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+	}
+	.header_bar #searchsubmit { top: 8px;}
+	.column-left {width: 346px;}
+	
+/*	Commentform
+-------------------------------------------------------------- */	
+	#commentform { padding-left: 2px;}
+	#commentform p { margin-bottom: 0; position:relative;} #commentform p.logged-in-as { margin-bottom: 11px;}
+	#commentform input[type="text"] { width: 100%; margin-bottom: 5px;}
+	#commentform textarea {
+		 margin-bottom: 10px;
+		 width: 100%; height: 99px;
+	}
+	#commentform span {
+		padding-left: 18px;
+		font: normal 12px/2.4 Arial, Helvetica, sans-serif;
+	}
+	.form-submit { text-align: center;}
+
+/*	Contact form
+-------------------------------------------------------------- */
+	.widget_contactform div { position: relative; text-align: left;}
+	.widget_contactform p { margin-bottom:11px;}
+	.widget_contactform input[type="text"] { margin-bottom: 5px;}
+	.widget_contactform textarea { margin-bottom: 10px;}
+	
+	.form_line { position: relative; margin-bottom: 5px;}
+	.contact-submit { margin-top: 10px; text-align: center;}
+	
+	.protected-post-form label { display:block; margin:3px 0;}
+	.protected-post-form input { margin-bottom:5px;}
+	
+	/* error text from*/
+	label.error {
+		position: absolute; right: 3px; top: 3px;
+		overflow: hidden; 
+		width: 23px; height: 23px;
+		background: url(../images/error.png) no-repeat 0 0; background-size: 23px 23px;
+		text-indent: -1000em;
+		z-index: 99999;
+	}	
+	
+/*	Map form
+-------------------------------------------------------------- */	
+	.location-map-directions p { margin-bottom:8px;}
+	input.location-map-button + input.location-map-button { margin-left:8px;}
+	
+	.location-map-container img { max-width:inherit;}
+	
+	
+	

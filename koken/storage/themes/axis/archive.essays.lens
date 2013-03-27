@@ -1,0 +1,52 @@
+<koken:include file="layouts/header.html" />
+
+<koken:load limit="20">
+
+<div id="archive-head">
+	Essay archive &mdash; {{ archive.type.plural }} &mdash; {{ archive.title }}
+</div>
+
+<koken:loop>
+
+    <koken:include file="layouts/article.html" />
+
+</koken:loop>
+
+<koken:pagination>
+
+<div id="pagination">
+
+	<koken:if condition="{{ page }} > 1">
+
+		<koken:link data="previous_page" title="View page {{ previous_page.number }}">
+			Previous
+		</koken:link>
+		&nbsp;
+
+	</koken:if>
+
+	<koken:loop>
+
+		<koken:link class="{{ is_current }}" title="View page {{ number }}">
+			{{ number }}
+		</koken:link>
+		&nbsp;
+
+	</koken:loop>
+
+	<koken:if condition="{{ page }} < {{ pages }}">
+
+		<koken:link data="next_page" title="View page {{ next_page.number }}">
+			Next
+		</koken:link>
+		&nbsp;
+
+	</koken:if>
+
+</div>
+
+</koken:pagination>
+
+</koken:load>
+
+<koken:include file="layouts/footer.html" />
